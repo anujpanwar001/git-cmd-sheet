@@ -26,18 +26,18 @@
 #### Check how much changes I made
 - git status
 
-Those *** files are currently on our local device*** not into github or github history
+Those ***files are currently on our local device*** not into github or github history
 
 #### Add all the files we made changes to
 - git add .
 > Add all files even if they are deleted too.
 
-        ** or **
+        **or**
 
 - git add -A 
 > Show all changes and add
           
-	** or **
+	**or**
 
 - git add hello.text
 > We can add individual files by their names.
