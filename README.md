@@ -59,3 +59,22 @@ Those ***files are currently on our local device*** not into github or github hi
 #### Push those changes to online which we made it.
 - git push origin main
 
+#### If I add accidently any file and then we want to remove from stages area
+- git restore --staged hello.text
+
+#### How do i check all previous commits
+- git log
+
+#### If I want to remove the commit from log history then copy the hash code of the next one commit 
+- git reset `hash code`
+
+## Stash area
+
+#### If I don't want to commit and also don't loose those files then add into stash area  
+- git stash
+
+#### Bring back all stashed files
+- git stash pop
+
+#### Delete file from stash area
+- git stash clear
