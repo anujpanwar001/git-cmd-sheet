@@ -31,18 +31,19 @@ Those ***files are currently on our local device*** not into github or github hi
 #### Add all the files we made changes to
 - git add .
 
- - ***Add all files even if they are deleted too.***
+  Add all files even if they are deleted too.
 
-        **or**
+>                         or
 
 - git add -A
 
- -***show all changes and add***
+  show all changes and add
           
-	**or**
+>                 	  or
 
 - git add hello.text
-> We can add individual files by their names.
+
+ We can add individual files by their names.
 
 
 #### Add message to tell other people which changes I made
@@ -51,7 +52,7 @@ Those ***files are currently on our local device*** not into github or github hi
 #### Add origin to our folder or Basically url to where our all code will store in online
 - git remote add origin `Your repository link`
 
-**ex**
+**example of repo link**
 
 ![images](/assister/repo-example.png)
 
