@@ -1,4 +1,23 @@
-- There are some amazing hotels for tourist with low price and best locations
-- This month you got 20% off from actual price.`
-- We also have taxy service for you at the 50% off
-create new file
+
+# Git Basic Command Sheet
+ 
+### Create new Folder
+- mkdir anuj
+
+#### Create new file
+- > index.html
+- echo " " > index.html
+- touch index.html
+
+#### Check the Directory Files 
+- ls
+
+#### Remove files or Folder
+- rm -rf hello.text => for file
+- rm -rf anuj => for folder
+
+
+
+
+
+
