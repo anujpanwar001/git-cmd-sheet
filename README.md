@@ -30,12 +30,14 @@ Those ***files are currently on our local device*** not into github or github hi
 
 #### Add all the files we made changes to
 - git add .
-***Add all files even if they are deleted too.***
+
+ - ***Add all files even if they are deleted too.***
 
         **or**
 
-- git add -A 
- ***show all changes and add***
+- git add -A
+
+ -***show all changes and add***
           
 	**or**
 
@@ -51,7 +53,7 @@ Those ***files are currently on our local device*** not into github or github hi
 
 **ex**
 
-!(/assister/repo-example.png)
+![images](/assister/repo-example.png)
 
 #### Push those changes to online which we made it.
 - git push origin main
