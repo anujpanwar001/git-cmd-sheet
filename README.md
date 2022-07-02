@@ -132,3 +132,41 @@ let's understand with one example
 - It is recommanded if you work on new feature or might be fixing new bugs make sure you create new branch .
 - If you pull data into one branch that might be cumbersome to read that code again.
 
+
+## Contribute to other projects
+- You don't have to access directly to make changes into other repo that might be terrified
+- So First we fork that repo
+
+![fork image](/assister/fork.png)
+
+#### Clone your repo link not the upstream link
+- git clone `your repo link`
+
+![image](/assister/clone.png)
+
+#### Add upstream url
+- git remote add origin `url`
+ 
+ ![image](/assister/upstream.png)
+
+#### You can't directly push changes to upstream url so you push changes in your repo and make pull request from that
+
+#### Some times we changed some branch code like delete some files and that branch also merge to upstream url to push your changes
+- git push orign -force
+
+#### When our branch merged to upstream then github code can't be updated automatically and it also not possible to upstream make changes into our code, to update that changes in our repo well we write some cmd
+- git fetch --all --prune 
+
+   it fetch all files and also fetch deleted files as well
+
+- git reset --hard upstream/main
+   
+   reset of my main branch origin to main branch of upstream and more simple words it will imitate upstream main branch and paste into my main branch
+
+
+>                                     or
+
+- git pull upstream main 
+
+   internally it follow the same steps
+
