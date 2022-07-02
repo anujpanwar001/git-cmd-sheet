@@ -145,7 +145,7 @@ let's understand with one example
 ![image](/assister/clone.png)
 
 #### Add upstream url
-- git remote add origin `url`
+- git remote add upstream `url`
  
  ![image](/assister/upstream.png)
 
