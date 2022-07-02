@@ -104,3 +104,31 @@ Those ***files are currently on our local device*** not into github or github hi
 
 #### Delete file from stash area
 - git stash clear
+
+
+## Git Branch
+
+#### Show current branch
+- git branch --show-current
+
+#### Check all branches
+- git branch
+
+#### Create new branch
+- git checkout -b `branch name`
+
+#### Switch between branches
+- git checkout main
+
+>                        or
+
+- git switch main
+
+### Why we create branches?
+let's understand with one example
+
+- In real world scenerio user use one main branch and if you pull direct code into main branch and suppose that code contains some bugs then users also face that issue that not good at all. So this is reason we create new branches.
+- One branch has one pull request so that is second reson why we create new branch.
+- It is recommanded if you work on new feature or might be fixing new bugs make sure you create new branch .
+- If you pull data into one branch that might be cumbersome to read that code again.
+
