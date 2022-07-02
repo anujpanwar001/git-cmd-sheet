@@ -15,7 +15,7 @@
 - ls
 
 #### Check directory hidden files also like git
-- ls .a
+- ls -a
 
 #### Remove files or Folder
 - rm -rf hello.text => for file
@@ -29,7 +29,7 @@
     - hit esc key
     - :wq 
 
-       or
+                       **or**
 
 - nano hello.text       
     
