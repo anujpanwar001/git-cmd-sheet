@@ -14,7 +14,7 @@
 #### Check the Directory Files 
 - ls
 
-#### Check directory hidden files also like git
+#### Check directory hidden files also likeit
 - ls -a
 
 #### Remove files or Folder
@@ -78,6 +78,9 @@ Those ***files are currently on our local device*** not into github or github hi
 **example of repo link**
 
 ![images](/assister/repo-example.png)
+
+#### check the currently added remote url or repository url
+- git remote -v
 
 #### Push those changes to online which we made it.
 - git push origin main
