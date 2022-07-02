@@ -14,9 +14,32 @@
 #### Check the Directory Files 
 - ls
 
+#### Check directory hidden files also like git
+- ls .a
+
 #### Remove files or Folder
 - rm -rf hello.text => for file
 - rm -rf anuj => for folder
+
+#### Insert data into file
+- vi hello.text
+   
+   Save and exit from vi editor
+
+    - hit esc key
+    - :wq 
+
+       or
+
+- nano hello.text       
+    
+    Save and exit from nano editor
+
+     - ctrl+S
+     - ctrl + X
+
+#### Check file's data
+- cat hello.text
 
 ## Git Basic
 
