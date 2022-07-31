@@ -1,7 +1,7 @@
 
 # Git Basic Command Sheet
  
-## Files basics
+## Files basic
 
 #### Create new Folder
 - mkdir anuj
